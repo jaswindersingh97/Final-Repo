@@ -1,0 +1,29 @@
+# TODO - What is left
+
+## General Tasks
+
+1. Make the GroupChat button clickable and add a form for creating a new group chat. -- Created
+
+## Features
+
+1. Implement date-wise chat organization or display.  -- Easy functionality
+2. Add functionality to track and display message read statuses (seen vs. not seen).  -- Cancelled
+
+## User Interface
+
+1. Create a profile page with user status and additional profile details.  -- can Be done
+2. Implement typing indicators (e.g., "typing...") in the chat interface.   -- can be done
+3. Develop frontend features to indicate whether the user has seen the message. -- Dropped
+4. Enhance visual transitions between screens for a smoother user experience.
+5. Adjust chat message display to flow from bottom to top.  --Done
+6. Implement pagination to limit the display to the first 20 messages and load more as needed.  --can be done after the basic implementation
+
+## OPTIONAL
+
+1. Add support for sending and displaying images, videos, and documents within messages.    --can be done after the basic implementation
+
+## FinalChangesLeft
+
+1. adding the count to each and every message. moreover rendering it  correctly.
+2. need to correct the issue while changing  the chat.
+3. states on which the unseen count for each chat is needed to be cleaned, are changing from one chat to other, on message sent making the backend count to be 0 too, on recieve message making for same chat making the that to 0.

@@ -1,0 +1,94 @@
+.container{  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional backdrop effect */
+    z-index: 10; /* Ensure CreateGroup is on top */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    border: 1px,solid, black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    padding-inline:40px ;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.button{
+    padding: 10px;
+    width: 180px;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.heading button{
+    background: unset;
+    border: 0px;
+    cursor: pointer;
+    color: red;
+    font-size: xx-large;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.heading button:hover{
+    background: rgba(192, 192, 192, 0.341);
+}
+
+.textfields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding-inline: 20px; */
+}
+.textfields input{
+    padding: 20px;
+    font-size: large;
+}
+.selectedMembers{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap;
+}
+.selectedMember{
+    display: flex;
+    background-color: rgb(54, 171, 171);
+    cursor: pointer;
+    padding: 10px;
+    border: 1px, solid,black;
+}
+.searchedMembers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.searchedMember{
+    background-color: rgb(211, 219, 209);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.searchedMember:hover{
+    opacity: 0.8;
+}
+.searchedMember:active{
+    background-color: rgb(182, 206, 175);
+    opacity: 1;
+}
+.error{
+    color: red;
+}
